@@ -1,1 +1,11 @@
-<h1>hola mundo</h1>
+<h1>{{title}}</h1>
+<h2>ngClass</h2>
+
+<!-- operador ternario -->
+<p [ngClass]="hayError ? 'error' : 'success'">la edad del usuario es: {{edad + 1}}</p>
+
+<p [ngClass]="{success: !hayError, error: hayError}">el nombre de la app es:{{title}}</p>
+
+<h2>ngStyle</h2>
+
+<p [ngStyle]="{fontWeight: hayError ? 'bold' : 'normal'}">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ipsam repellendus recusandae consectetur commodi animi iure, fugiat, delectus, a est error in quo alias illo labore vel saepe exercitationem beatae.</p>

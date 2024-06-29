@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clase-01-angular';
+
+  edad = 30;
+  hayError = true; 
 }
